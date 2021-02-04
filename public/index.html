@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>FEC Feedback - Kara Proxy</title>
+  </head>
   <body>
     <div id="app">
       Humble Bundle
       <div id="charity">
-        <script src="http://localhost:3987/static/js/bundle.js"></script>
       </div>
       <div id="contributors">
         Contributors
       </div>
+      <div id="Navbar">
+        Navbar (offline)
+      </div>
+      <div id="descriptions">
+        Opening (offline)
+      </div>
+      <div id="Tiers">
+        Tier (offline)
+      </div>
     </div>
+    <script src="https://mg-fec-desc-bundle.s3-us-west-1.amazonaws.com/bundle.js"></script>
+    <script src="https://fec-navbar-ms.s3-us-west-2.amazonaws.com/bundle.js"></script>
+    <script src="http://localhost:3987/bundle.js"></script>
+    <script src="https://fec-tiers.s3-us-west-2.amazonaws.com/bundle.js"></script>
   </body>
 </html>
